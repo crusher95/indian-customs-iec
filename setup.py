@@ -7,7 +7,7 @@ with open('README.md', 'r') as f:
 setup(name='pyiec',
       description='This package allows to verify import-export code with indian customs and fetch useful information linked with the same.',
       long_description=long_description,
-      version='0.1.1',
+      version='0.1.2',
       url='https://github.com/crusher95/indian-customs-iec',
       author='Utkarsh Dhawan',
       author_email='dhawanutkarsh@gmail.com',

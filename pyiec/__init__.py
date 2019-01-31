@@ -1,5 +1,6 @@
 import json
 import re
+
 import requests
 import hashlib
 
@@ -12,7 +13,7 @@ class pyiec:
         self.__error_message = ["4287293b7ae768abaff661ec64afda9946d5c740b909f30b1b5040d618769761",
                                 "fd13a6927ae11ab69c72047ce3feb855e27d4aac8ec1c6cc5d42b88bae12a9ad",
                                 "e2f901ca48cd500f578034dcdb67cd297d2efa69b14af563a68f9509af8660ce"]
-        self.__soup = BeautifulSoup(self.__response, 'lxml')
+        self.__soup = BeautifulSoup(self.__response)
 
     def verify_iec(self):
         if hashlib.sha256(self.__response.encode()).hexdigest() in self.__error_message:
