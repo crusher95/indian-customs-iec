@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pyiec
+Version: 0.1.1
+Summary: This package allows to verify import-export code with indian customs and fetch useful information linked with the same.
+Home-page: https://github.com/crusher95/indian-customs-iec
+Author: Utkarsh Dhawan
+Author-email: dhawanutkarsh@gmail.com
+License: Apache2
+Description: # Indian Customs IEC
+        
+        This package allows to verify import-export code with indian customs and fetch useful information linked with the same.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
