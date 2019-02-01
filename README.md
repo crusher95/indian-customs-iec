@@ -1,6 +1,6 @@
 ![Made with Love in India](https://madewithlove.org.in/badge.svg) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-# Indian Customs IEC
+# Indian Customs IEC [pyiec]
 
 This package allows to verify import-export code with indian customs and fetch useful information linked with the same. This works on the technology utilized in [exportify.in](https://exportify.in) using information extracted from DGFT(Directorate General of Foreign Trade) portal.
 
